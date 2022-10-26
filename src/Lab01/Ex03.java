@@ -7,7 +7,7 @@ public class Ex03 {
         number= 10500;
 
         float result;
-        result= (number/10)/10;
+        result= ((float)number/10)/10;
 
         System.out.println(result);
     }
